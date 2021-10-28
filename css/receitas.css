@@ -24,7 +24,6 @@
   text-decoration: none;
 }
 
-
 .menu-logo{
   display: flex;
   justify-content: center;
@@ -54,8 +53,6 @@
   margin-top: -20px;
   display: inline;
 }
-
-
 
 .header a {
   color: black;
@@ -91,4 +88,3 @@
   width: 80%;
   background: black;
 }
-
