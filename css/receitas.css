@@ -25,7 +25,6 @@
 }
 
 
-
 .menu-logo{
   display: flex;
   justify-content: center;
@@ -34,8 +33,10 @@
   font-family: 'Richie Brusher', Arial ;
   font-size: 4em;
   font-weight: bold;
+}
+
+.menu-logo a{
   color: black;
- 
 }
 
 .menu-nav {
@@ -67,6 +68,7 @@
   transition: .5s ease;
   position: relative;
   font-family: 'Montserrat', sans-serif;
+  color: black;
 }
 
 .link::after {
@@ -89,3 +91,4 @@
   width: 80%;
   background: black;
 }
+
