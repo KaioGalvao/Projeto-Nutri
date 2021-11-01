@@ -36,15 +36,6 @@ $(document).ready(function (e) {
 });
 
 
-function abrirPopup(){
-	if(document.getElementById("popup").style.display == "none"){
-		document.getElementById("popup").style.display = "block";
-	}
-		
-	else{
-		document.getElementById("popup").style.display = "none";
-	}
-}
 
 
 
