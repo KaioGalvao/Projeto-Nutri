@@ -98,7 +98,7 @@
 
 
 .slideshow-container {
-  margin: 0px 75px 0px 75px;
+  margin: 0px 75px -23px 75px;
   position: relative;
 }
 
@@ -124,6 +124,7 @@
   transition: 0.6s ease;
   border-radius: 50%;
   user-select:all;
+  
 
 }
 
@@ -163,6 +164,18 @@
 }
 
 
+.dot-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 75px 0 75px;
+  background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFja2dyb3VuZCUyMHRleHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-attachment: fixed;
+  background-size: contain;
+  z-index: -5;
+  height: 70px;
+}
+
 
 .dot {
   background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFja2dyb3VuZCUyMHRleHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
@@ -175,8 +188,9 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-
 }
+
+
 
 .active, .dot:hover {
   background-image: none;
@@ -196,8 +210,9 @@
   background-size: contain;
   background-attachment: fixed;
   display: block;
-  margin: -41px 75px 0px 75px ;
+  margin: 0px 75px 0 75px ;
   text-align: center;
+  height: 875px;
 }
 
 .menu-topicos{
@@ -271,6 +286,16 @@
 .botao-menu .material-icons-outlined:hover{
   color: #000000;
   filter: opacity(50%);
+}
+
+.importancia{
+  margin-top: 67px;
+}
+
+.importancia-titulo{
+  margin-right: 100px;
+  margin-bottom: 18px;
+  margin-left: 100px;
 }
 
 
@@ -547,7 +572,7 @@ button:focus {
 .contato-insta img{
   display: flex;
   flex-direction: column;
-  pointer-events:painted;
+  pointer-events: painted;
   transition: 0.3s ease;
 }
 
