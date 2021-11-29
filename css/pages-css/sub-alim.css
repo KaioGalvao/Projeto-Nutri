@@ -640,26 +640,7 @@
         height: 100px;
     }
 
-    .popup1,
-    .popup2,
-    .popup3,
-    .popup4,
-    .popup5,
-    .popup6,
-    .popup7,
-    .popup8,
-    .popup9{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px !important;
-        background: rgba(0, 0, 0, 0.75);
-        position: fixed;
-        display: none;
-        z-index: 5000;
-        height: 100%;
-        width: 100%;
-        left: 0;
-        top: 0;
-    }
+    
 
     .popup1 img,
     .popup2 img,
@@ -674,6 +655,23 @@
     object-fit: cover;
     object-position: center;
 }
+    .popup1 > div,
+    .popup2 > div,
+    .popup3 > div,
+    .popup4 > div,
+    .popup5 > div,
+    .popup6 > div,
+    .popup7 > div,
+    .popup8 > div,
+    .popup9 > div {
+        max-width: 400px;
+        width: 50%;
+        position: fixed;
+        transform: translate(-50%, -50%);
+        left: 28%;
+        top: 50%;
+        
+    }
 
 }
 
