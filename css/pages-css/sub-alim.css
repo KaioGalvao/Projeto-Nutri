@@ -640,7 +640,17 @@
         height: 100px;
     }
 
-    
+    .popup1,
+    .popup2,
+    .popup3,
+    .popup4,
+    .popup5,
+    .popup6,
+    .popup7,
+    .popup8,
+    .popup9{
+        font-size: 14px !important;
+    }
 
     .popup1 img,
     .popup2 img,
@@ -668,7 +678,7 @@
         width: 50%;
         position: fixed;
         transform: translate(-50%, -50%);
-        left: 28%;
+        left: 30%;
         top: 50%;
         
     }
