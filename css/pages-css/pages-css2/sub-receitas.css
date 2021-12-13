@@ -30,6 +30,21 @@ html, body {
 }
 
 
+body::-webkit-scrollbar{
+  width: 8px;
+ }
+ 
+ body::-webkit-scrollbar-track{
+   background:#c4c4c4;
+ 
+ }
+ 
+ body::-webkit-scrollbar-thumb {
+   background-color: black;  
+   border-radius: 20px;  
+   border: 2px solid #c4c4c4;
+ }
+
 .header-superior {
   background: #fff;
   display: flex;
