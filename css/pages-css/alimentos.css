@@ -329,7 +329,7 @@ body::-webkit-scrollbar{
     right: 0;
     top: 8vh;
     width: 30vh;
-    height: 87vh;
+    height: 90.5vh;
     background: #fff;
     flex-direction: column;
     align-items: center;
@@ -384,7 +384,7 @@ body::-webkit-scrollbar{
     position: absolute;
     flex-direction: column;
     right: -12vh;
-    height: 87vh;
+    height: 89.5vh;
     width: 32vh;
     background: #C4C4C4;
     justify-content: space-evenly;
