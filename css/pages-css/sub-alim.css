@@ -26,6 +26,11 @@
     text-decoration: none;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
 body::-webkit-scrollbar{
     width: 8px;
    }
