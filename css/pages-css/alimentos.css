@@ -384,7 +384,7 @@ body::-webkit-scrollbar{
     position: absolute;
     flex-direction: column;
     right: -12vh;
-    height: 92vh;
+    height: 87vh;
     width: 32vh;
     background: #C4C4C4;
     justify-content: space-evenly;
