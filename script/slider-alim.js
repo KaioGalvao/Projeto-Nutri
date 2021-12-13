@@ -87,52 +87,12 @@ const secondMobileNavbar = new MobileNavbar(
 );
 
 secondMobileNavbar.init();
-/*
-class SecondMobileNavbar {
-	constructor(secondMenuMobile, linkItemsNav, navLinksSecond) {
-	  this.secondMenuMobile = document.querySelector(secondMenuMobile);
-	  this.linkItemsNav = document.querySelector(linkItemsNav);
-	  this.navLinksSecond = document.querySelectorAll(navLinksSecond);
-	  this.activeClass = "active";
-  
-	  this.handleClick = this.handleClick.bind(this);
-	}
-  
-	animateLinks() {
-	  this.navLinksSecond.forEach((link, index) => {
-		link.style.animation
-		  ? (link.style.animation = "")
-		  : (link.style.animation = `navLinksSecondFade 0.5s ease forwards ${
-			  index / 7 + 0.3
-			}s`);
-	  });
-	}
-  
-	handleClick() {
-	  this.linkItemsNav.classList.toggle(this.activeClass);
-	  this.secondMenuMobile.classList.toggle(this.activeClass);
-	  this.animateLinks();
-	}
-  
-	addClickEvent() {
-	  this.secondMenuMobile.addEventListener("click", this.handleClick);
-	}
-  
-	init() {
-	  if (this.secondMenuMobile) {
-		this.addClickEvent();
-	  }
-	  return this;
-	}
-}
-  
-const secondMobileNavbar = new SecondMobileNavbar(
-	".second-menu-mobile",
-	".link-items-nav",
-	".link-items-nav li",
-);
-secondMobileNavbar.init();
-*/
+
+$(window).on('load', function () {
+    $('#preloader .inner').fadeOut();
+    $('#preloader').delay(10).fadeOut('slow'); 
+    $('body').delay(10).css({'overflow': 'visible'});
+})
 
 
 
