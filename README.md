@@ -1,2 +1,3 @@
 # Projeto-Nutri
-Espaço destinado ao desenvolvimento do projeto.
+Projeto de Nutrição, desenvolvido em grupo na disciplina de PROJETO INTEGRADO.
+
